@@ -1,0 +1,7 @@
+[run]
+branch = True
+source = vif_plug_vrouter
+omit = tests/*,vif_plug_vrouter/openstack/*
+
+[report]
+ignore-errors = True
