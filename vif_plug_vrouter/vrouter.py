@@ -19,7 +19,7 @@ from vif_plug_vrouter import linux_net
 PLUGIN_NAME = 'vrouter'
 
 
-class VrouterPlugin(base.PluginBase):
+class VrouterPlugin(plugin.PluginBase):
     """A VIF type that plugs into a Contrail network port."""
     
     def __init__(self, **config):
